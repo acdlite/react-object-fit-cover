@@ -1,0 +1,29 @@
+{
+  "name": "react-object-fit-cover",
+  "version": "1.0.0",
+  "description": "A React component that mimics `object-fit: cover`",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acdlite/react-object-fit-cover.git"
+  },
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "6to5": "^1.13.11"
+  },
+  "scripts": {
+    "build": "6to5 src -d dist --modules commonInterop",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "object-fit",
+    "responsive",
+    "jquery"
+  ],
+  "author": "Andrew Clark <acdlite@me.com>",
+  "license": "MIT"
+}
